@@ -18,7 +18,6 @@ export class App extends React.Component<Props, State> {
     return Reacotron.configure({
       host: '192.168.29.24',
       port: 9090,
-      name: 'ReactNativeCourse',
     }).connect();
   }
   render() {
